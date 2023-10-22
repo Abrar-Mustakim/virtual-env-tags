@@ -1,0 +1,16 @@
+#In a folder--->
+
+pip install virtualenv
+
+python -m virtualenv env      
+#Here env is the name, you can choose whatever
+
+#Now in the same location, you have to activate env
+env\Scripts\activate.bat
+
+
+Virtual env done. Now you can install and run anything here. Also you can add it
+to your ipykernel
+
+pip install flask
+flask run
