@@ -13,4 +13,6 @@ Virtual env done. Now you can install and run anything here. Also you can add it
 to your ipykernel
 
 pip install flask
+pip install SQLAlchemy
+pip install -U Flask-WTF
 flask run
